@@ -1,0 +1,11 @@
+body {
+    background-color: #4c7eb8 !important;
+}
+
+#card-goal, #card-total{
+    width: 40%;
+}
+
+#card-quantity {
+    width: 40%;
+}
