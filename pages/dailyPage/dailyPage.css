@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue: #4C7EB8; 
+    --white: white;
+    color: var(--white);
+}
+a, li{
+    color: var(--white) !important;
+}
+#card-calculator{
+    background-color: var(--blue) !important;
+    max-width: 40%;
+    border-radius: 0.4rem;
+}
+#quantity-drunk-input{
+    border: solid 1px var(--blue);
+    border-radius: 0.4rem;
+}
+.card-layout{
+    background-color: var(--blue) !important;
+    max-width: 15rem;
+    border-radius: 0.4rem;
+    color: var(--white);
+}
+#nav-bar{
+    background-color: var(--blue) !important;
+    width: 50vw !important;
+    border-radius: 0.4rem 0.4rem 0 0;
+    /*position: fixed;
+    bottom: 0;*/
+  
+}
